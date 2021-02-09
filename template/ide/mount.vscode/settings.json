@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.cc": "cpp",
+    "*.cpp": "cpp",
+    "*.h": "cpp",
+    "*.hh": "cpp",
+    "*.hpp": "cpp"
+  },
+  "C_Cpp.default.compilerArgs": [
+    "-std=c++20"
+  ],
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "C_Cpp.default.cppStandard": "gnu++20",
+  "C_Cpp.formatting": "clangFormat",
+  "terminal.integrated.scrollback": 10000,
+  "testMate.cpp.test.advancedExecutables": [
+    {
+      "pattern": "bazel-out/k8-dbg/bin/**/*.runfiles/**/test",
+      "cwd": "${workspaceDirectory}"
+    }
+  ]
+}

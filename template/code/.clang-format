@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+Standard: Cpp11
+ColumnLimit: 120
+IndentWidth: 2
+PointerAlignment: Left
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  SplitEmptyFunction: false
+AlignConsecutiveMacros: true
+AlwaysBreakTemplateDeclarations: Yes
+AlwaysBreakBeforeMultilineStrings: true
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false

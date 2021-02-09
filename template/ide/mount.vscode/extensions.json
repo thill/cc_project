@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "matepek.vscode-catch2-test-adapter",
+    "ms-vscode.cpptools",
+    "xaver.clang-format",
+    "bazelbuild.vscode-bazel",
+    "ms-azuretools.vscode-docker",
+    "donjayamanne.githistory",
+  ]
+}
