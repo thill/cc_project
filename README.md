@@ -1,4 +1,4 @@
-# cc-template
+# cc-project
 
 Generate a new C++ bazel project with `libfmt`, `spdlog`, and `Catch2` dependencies. A VSCode environment is generated that will utilize a Docker container for development.
 
