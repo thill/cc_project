@@ -14,8 +14,7 @@
 	"workspaceMount": "",
 	"workspaceFolder": "/workspaces/{{{ PROJECT_NAME }}}",
 	"runArgs": [
-		"--volume=${localWorkspaceFolder}/../../code/:/workspaces/{{{ PROJECT_NAME }}}:z",
-		"--volume=${localWorkspaceFolder}/../../ide/mount.vscode/:/workspaces/{{{ PROJECT_NAME }}}/.vscode:z",
+		"--volume=${localWorkspaceFolder}/../../:/workspaces/{{{ PROJECT_NAME }}}:z",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt",
 		"seccomp=unconfined"
