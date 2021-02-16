@@ -4,7 +4,7 @@ cc_library(
     name = "lib",
     hdrs = glob([
         "include/**/*.cc",
-	"include/**/*.h",
+        "include/**/*.h",
     ]),
     defines = ["SPDLOG_FMT_EXTERNAL"],
     includes = ["include"],

@@ -1,11 +1,10 @@
 load("@rules_cc//cc:defs.bzl", "cc_binary")
-load("//bazel:cc_opts.bzl", "default_copts", "default_linkopts")
+load("//bazel:cc_opts.bzl", "default_copts")
 
 cc_binary(
     name = "hello_world",
     srcs = ["main.cc"],
     copts = default_copts(),
-    linkopts = default_linkopts(),
     deps = [
         ":common",
     ],
@@ -37,7 +36,6 @@ cc_library(
 cc_test(
     name = "test",
     copts = default_copts(),
-    linkopts = default_linkopts(),
     deps = [
         ":tests",
         "@com_github_catchorg_catch2//:main",
