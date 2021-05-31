@@ -1,4 +1,4 @@
-FROM fedora:33
+FROM fedora:latest
 
 RUN dnf update -y \
     && dnf install -y clang cmake curl findutils gcc g++ gdb git make rsync unzip vim wget zip \
