@@ -1,11 +1,23 @@
 {
   "editor.formatOnSave": true,
   "files.associations": {
+    "WORKSPACE": "starlark",
+    "BUILD": "starlark",
+    "*.BUILD": "starlark",
+    "*.bzl": "starlark",
+    "Makefile": "makefile",
+    "Dockerfile": "dockerfile",
+    "*.json": "json",
+    "*.txt": "text",
+    "*.params": "text",
+    "*.xml": "xml",
+    "*.log": "log",
     "*.cc": "cpp",
     "*.cpp": "cpp",
     "*.h": "cpp",
     "*.hh": "cpp",
-    "*.hpp": "cpp"
+    "*.hpp": "cpp",
+    "/usr/include/c++/**": "cpp"
   },
   "C_Cpp.default.compilerArgs": [
     "-std=c++20"
