@@ -15,6 +15,7 @@
 	"workspaceFolder": "/workspaces/{{{ PROJECT_NAME }}}",
 	"runArgs": [
 		"--volume=${localWorkspaceFolder}/../../:/workspaces/{{{ PROJECT_NAME }}}",
+		"--volume=${env:HOME}/.ssh:/root/.ssh",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt",
 		"seccomp=unconfined"

@@ -4,7 +4,7 @@ Generate a new C++ bazel project with `libfmt`, `spdlog`, and `Catch2` dependenc
 
 ## OS Compatibility
 
-VS Code configurations get generated for multiple platforms. At the moment, `ide/selinux` and `ide/linux` will be generated. It is currently untested, but `ide/linux` should also work on MacOS and WSL.
+VS Code configurations get generated for multiple platforms. At the moment, `ide/selinux-amd64` and `ide/linux-amd64` will be generated. It is currently untested, but `ide/linux-amd64` should also work on MacOS and WSL.
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ VS Code configurations get generated for multiple platforms. At the moment, `ide
 ```
 $ ./gen.sh my_project
 $ cd my_project
-$ code ide/selinux/
+$ code ide/selinux-amd64/
 ```
 2. Click through VS Code prompts to `Run in Container` and `Install Recommended Extensions`
 
