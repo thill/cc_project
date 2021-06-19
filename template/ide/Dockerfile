@@ -1,7 +1,7 @@
 FROM fedora:latest
 
 RUN dnf update -y \
-    && dnf install -y clang cmake curl findutils gcc g++ gdb git make python3 python3-pip rsync unzip vim wget zip \
+    && dnf install -y clang clang-tools-extra cmake curl findutils gcc g++ gdb git make python3 python3-pip rsync unzip vim wget zip \
     && dnf clean all \
     && /usr/bin/python3 -m pip install -U pylint-starlark
 RUN wget -O /tmp/bazel-installer.sh https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-installer-linux-x86_64.sh \
