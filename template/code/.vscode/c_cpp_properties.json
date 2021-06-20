@@ -4,11 +4,12 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/bazel-${workspaceFolderBasename}/external/*/include/**",
-                "${workspaceFolder}/bazel-out/k8-dbg/bin/**",
+                "${workspaceFolder}/bazel-bin/**",
                 "${workspaceFolder}/**"
             ],
-            "compilerPath": "/usr/bin/clang",
-            "cppStandard": "gnu++20"
+            "compilerPath": "/usr/bin/gcc",
+            "cppStandard": "c++20",
+            "cStandard": "c11"
         }
     ],
     "version": 4

@@ -23,9 +23,19 @@
     "-std=c++20"
   ],
   "C_Cpp.default.intelliSenseMode": "gcc-x64",
-  "C_Cpp.default.cppStandard": "gnu++20",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
   "C_Cpp.formatting": "clangFormat",
   "terminal.integrated.scrollback": 10000,
+  "testMate.cpp.debug.configTemplate": {
+    "type": "cppdbg",
+    "MIMode": "gdb",
+    "program": "${exec}",
+    "args": "${args}",
+    "cwd": "${cwd}",
+    "env": "${envObj}",
+    "externalConsole": false
+  },
   "testMate.cpp.test.advancedExecutables": [
     {
       "pattern": "bazel-out/k8-dbg/bin/**/*.runfiles/**/test",

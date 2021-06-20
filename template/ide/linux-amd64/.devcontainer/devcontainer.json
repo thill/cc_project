@@ -3,21 +3,15 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
 	"extensions": [
 		"ms-azuretools.vscode-docker",
-		"ms-vscode.cpptools",
-		"vscjava.vscode-java-pack"
+		"ms-vscode.cpptools"
 	],
 	"workspaceMount": "",
 	"workspaceFolder": "/workspaces/{{{ PROJECT_NAME }}}",
 	"runArgs": [
 		"--volume=${localWorkspaceFolder}/../../:/workspaces/{{{ PROJECT_NAME }}}",
 		"--volume=${env:HOME}/.ssh:/root/.ssh",
-		"--cap-add=SYS_PTRACE",
-		"--security-opt",
-		"seccomp=unconfined"
+		"--cap-add=SYS_PTRACE"
 	]
 }
